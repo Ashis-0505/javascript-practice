@@ -35,3 +35,215 @@ Homework:-
 1. difference between let & var.
 2. difference between var & const.
 3. what do you mean by hoasting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Loops in JS :-
+
+- Loops are used to execute a piece of code again and again.
+1. For Loop :-
+    syntax -
+    for (initialization; condition; updation){
+        statement
+    }
+
+    ex - 
+    for(let i = 6; <= 5; i++)
+        console.log("web bocket")
+    }
+
+    web bocket
+    web bocket
+    web bocket
+    web bocket
+    web bocket
+
+2. while loop :-
+    syntax - 
+    while (condition){
+        statement
+        updattion
+    }
+
+
+3. Do-while loop :-
+    syntax -
+    do {
+        statement
+        updation
+    } while (condition)
+
+    4. For-of loop :- it iterate on string & array.
+    5. For-in loop :- it iterate over objects (key-value)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Array on 35 :-
+
+- array is collection of items.
+- ex.
+let heroes = ["ironman","thor","hulk","batman"];
+let marks = ["ashis",76,""bbsr"];
+
+- array index starting from "0".
+- arr[0], arr[1], arr[2]........
+
+Looping over a array :-
+
+- loops -> iterable
+- syntax :- 
+for (let i = 0; i < arr.length, i++){
+    // statement
+}
+
+practice quickly:-
+1. For a given array with marks of students -> [85,97,37,76,60]. Find the average
+marks of the entire class.
+2. For a given array with prices of 5 items of 4 items>[250, 645, 300,900,50];
+all items have an offer of 10% off on them. change the array to store final price after applying offer.
+
+array method :-
+- Push -> add an element to the end.
+- pop -> delete from end
+- toString -> conveets array to string
+- concat -> joins multiple arrays $ return result.
+- unshift -> add an element to the starting.
+- shift -> delete from start
+- slice() -> returns a piece of the array.
+- splice() -> change original array (add, remove, replace)
