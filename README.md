@@ -239,6 +239,7 @@ marks of the entire class.
 all items have an offer of 10% off on them. change the array to store final price after applying offer.
 
 array method :-
+
 - Push -> add an element to the end.
 - pop -> delete from end
 - toString -> conveets array to string
@@ -247,3 +248,23 @@ array method :-
 - shift -> delete from start
 - slice() -> returns a piece of the array.
 - splice() -> change original array (add, remove, replace)
+
+Function :-
+
+- block of code that perform a specific task. can be invoked whenever needed.
+- syntax :-
+function Defination :-
+
+function functionName(parameter){
+    // do some work
+}
+
+function Calling :- functionName
+
+arrow function :-
+
+- compact way of writting a function.
+- syntax :-
+const functionName = (param1, param2) => {
+    // do some task
+}
