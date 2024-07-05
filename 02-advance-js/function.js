@@ -53,3 +53,50 @@
 
 // Q2. Create an arrow function to perform same task
 
+// foreach Loop in array
+
+// let arr = [1,2,3,4,5,6,7];
+
+// arr.forEach(function printVal(val) {
+//     console.log(val);
+// })
+
+// arr.forEach((val) => {
+//     console.log(val)
+// })
+
+// let arr = ["pune", "mumbai", "delhi"];
+
+// arr.forEach((val) => {
+//     console.log(val.toUpperCase());
+// })
+
+// practice question
+
+// 1. for a given array of numbers, print the square of each value using the foreach loop.
+// nums = [2,3,4,5,6]
+
+// let nums = [2,3,4,5,6];
+// nums.forEach((num) => {
+//     console.log(num * num);
+// })
+
+// let nums = [67,52,39];
+
+// let newArr = nums.map((val) => {
+//     return val * val;
+// })
+
+// console.log(newArr);
+// console.log(nums);
+
+
+// array filter method
+// all even number from 1 to 9
+let arr = [1,2,3,4,5,6,7,8,9];
+
+let newArr = arr.filter((val) => {
+    return val % 2 !== 0; // logics
+})
+
+console.log(newArr);
